@@ -67,7 +67,7 @@ function gotResult(error, results) {
         }else if(results[0].label == "5"){
           poseLabel = "Virabhadrasana 2";
         }else{
-          poseLabel = "Chair";
+          poseLabel = "Utkatasana";
         }}
   //startTimer(thirtysecs, display);
   classifyPose();
