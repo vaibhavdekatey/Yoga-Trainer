@@ -61,7 +61,7 @@ function gotResult(error, results) {
       }else if(results[0].label == "2"){
           poseLabel = "Tree";
         }else if(results[0].label == "3"){
-          poseLabel = "Downward Dog";
+          poseLabel = "Adho Mukha Shvanasana";
         }else if(results[0].label == "4"){
           poseLabel = "Warrior 1";
         }else if(results[0].label == "5"){
