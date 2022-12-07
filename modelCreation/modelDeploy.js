@@ -3,7 +3,7 @@ let poseNet;
 let pose;
 let skeleton;
 let thirtysecs;
-let posesArray = ['Tadasana', 'Vrikshasana', 'Adho Mukha Shvanasana', 'Virabhadrasana II'];
+let posesArray = ['Majaryasana', 'Vrikshasana', 'Adho Mukha Shvanasana', 'Virabhadrasana II'];
 
 let yogi;
 let poseLabel
@@ -57,7 +57,7 @@ function classifyPose(){
 function gotResult(error, results) {
   if (results[0].confidence > 0.70) {
     if (results[0].label == "1"){
-      poseLabel = "Tadasana";
+      poseLabel = "Majaryasana";
       }else if(results[0].label == "2"){
           poseLabel = "Vrikshasana";
         }else if(results[0].label == "3"){
