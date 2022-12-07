@@ -55,7 +55,7 @@ function classifyPose(){
 
 function gotResult(error, results) {
   if (results[0].confidence > 0.70) {
-    if (results[0].label == "a"){
+    if (results[0].label == "Majaryasana"){
       poseLabel = "Majaryasana";
       }else if(results[0].label == "b"){
           poseLabel = "b";
