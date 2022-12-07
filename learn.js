@@ -3,7 +3,7 @@ let poseNet;
 let pose;
 let skeleton;
 let thirtysecs;
-let posesArray = ['Tadasana', 'Vrikshasana', 'Adho Mukha Shvanasana', 'Virabhadrasana I', 'Virabhadrasana II', 'Chair'];
+let posesArray = ['Tadasana', 'Vrikshasana', 'Adho Mukha Shvanasana', 'Virabhadrasana I', 'Virabhadrasana II', 'Utkatasana'];
 var imgArray = new Array();
 
 var poseImage;
