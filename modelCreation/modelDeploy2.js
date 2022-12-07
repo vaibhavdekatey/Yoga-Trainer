@@ -2,7 +2,7 @@ let video;
 let poseNet;
 let pose;
 let skeleton;
-let posesArray = ['a', 'b', 'd', 'e', 'f','h', 'i'];
+let posesArray = ['Majaryasana', 'b', 'd', 'e', 'f','h', 'i'];
 
 let yogi;
 let poseLabel
@@ -56,7 +56,7 @@ function classifyPose(){
 function gotResult(error, results) {
   if (results[0].confidence > 0.70) {
     if (results[0].label == "a"){
-      poseLabel = "a";
+      poseLabel = "Majaryasana";
       }else if(results[0].label == "b"){
           poseLabel = "b";
         }else if(results[0].label == "d"){
