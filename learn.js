@@ -3,7 +3,7 @@ let poseNet;
 let pose;
 let skeleton;
 let thirtysecs;
-let posesArray = ['Tadasana', 'Tree', 'Downward Dog', 'Warrior I', 'Warrior II', 'Chair'];
+let posesArray = ['Tadasana', 'Vrikshasana', 'Downward Dog', 'Warrior I', 'Warrior II', 'Chair'];
 var imgArray = new Array();
 
 var poseImage;
