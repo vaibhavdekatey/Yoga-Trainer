@@ -104,7 +104,7 @@ function draw() {
 
   fill(255, 0, 255);
   noStroke();
-  if (poseLabel == "Downward Dog"){
+  if (poseLabel == "Adho Mukha Shvanasana"){
     textSize(90);
   }else{
   textSize(150);}
