@@ -6,7 +6,7 @@ canvas {
 html, body {
   margin: 25px;
   /*background-color: #ce3635;*/
-  background-color: #A293FF;
+  background-color:  #380d17;
   font-family: Helvetica, sans-serif, sans-serif;
   font-size: 14px;
   overflow: hidden; 
@@ -28,7 +28,7 @@ h1 {
 
   letter-spacing: -0.05em;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 h2{
@@ -73,7 +73,7 @@ p {
 
   color: #FFFFFF;
 
-  background: rgba(87, 73, 174, 0.37);
+  background: rgba(59, 175, 127, 0.822);
 }
 
 a {
@@ -107,15 +107,16 @@ indexbutton{
   letter-spacing: -0.05em;
   height: 75px; 
   left:99px; 
+  border-radius: 6px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 
-  background: rgba(87, 73, 174, 0.37);
+  background: rgb(80, 170, 100);
 
 }
 
 indexbutton:hover{
-  border: 4px solid #FFFFFF;
+  border: 4px solid #b8b65f;
   box-sizing: border-box;
 }
 
