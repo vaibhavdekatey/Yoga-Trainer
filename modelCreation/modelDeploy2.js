@@ -107,7 +107,7 @@ function draw() {
   if (poseLabel == "Adho Mukha Shvanasana"){
     textSize(90);
   }else{
-  textSize(150);}
+  textSize(130);}
   textAlign(CENTER, CENTER);
   text(poseLabel, width / 2, height / 2);
 }
