@@ -3,7 +3,7 @@ let poseNet;
 let pose;
 let skeleton;
 let thirtysecs;
-let posesArray = ['Tadasana', 'Tree', 'Adho Mukha Shvanasana', 'Warrior II'];
+let posesArray = ['Tadasana', 'Vrikshasana', 'Adho Mukha Shvanasana', 'Virabhadrasana II'];
 
 let yogi;
 let poseLabel
@@ -59,13 +59,13 @@ function gotResult(error, results) {
     if (results[0].label == "1"){
       poseLabel = "Tadasana";
       }else if(results[0].label == "2"){
-          poseLabel = "Tree";
+          poseLabel = "Vrikshasana";
         }else if(results[0].label == "3"){
           poseLabel = "Adho Mukha Shvanasana";
         }else if(results[0].label == "4"){
-          poseLabel = "Warrior 1";
+          poseLabel = "Virabhadrasana 1";
         }else if(results[0].label == "5"){
-          poseLabel = "Warrior 2";
+          poseLabel = "Virabhadrasana 2";
         }else{
           poseLabel = "Chair";
         }}
