@@ -2,7 +2,7 @@ let video;
 let poseNet;
 let pose;
 let skeleton;
-let posesArray = ['Mountain', 'Tree', 'Downward Dog', 'Warrior I', 'Warrior II', 'Chair'];
+let posesArray = ['Tadasana', 'Vrikshasana', 'Adho Mukha Shvanasana', 'Virabhadrasana I', 'Virabhadrasana II', 'Utkatasana'];
 
 var poseImage;
 
