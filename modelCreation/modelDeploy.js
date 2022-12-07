@@ -3,7 +3,7 @@ let poseNet;
 let pose;
 let skeleton;
 let thirtysecs;
-let posesArray = ['Tadasana', 'Tree', 'Downward Dog', 'Warrior II'];
+let posesArray = ['Tadasana', 'Tree', 'Adho Mukha Shvanasana', 'Warrior II'];
 
 let yogi;
 let poseLabel
@@ -104,7 +104,7 @@ function draw() {
 
   fill(255, 0, 255);
   noStroke();
-  if (poseLabel == "Downward Dog"){
+  if (poseLabel == "Adho Mukha Shvanasana"){
     textSize(90);
   }else{
   textSize(150);}
