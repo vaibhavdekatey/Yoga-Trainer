@@ -107,23 +107,12 @@ indexbutton{
   letter-spacing: -0.05em;
   height: 75px; 
   left:99px; 
-  
-
-  
-
-  
-
-  
-  
-  text-transform: uppercase;
-  
-  
-  color: #313133;
-  background: #4FD1C5;
-background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+  color: #fcfcfc;
+  background: #360404;
+  background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
   border: none;
   border-radius: 1000px;
-  box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+  box-shadow: 12px 12px 24px rgba(204,20,245,.64);
   transition: all 0.3s ease-in-out 0s;
 
   
