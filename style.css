@@ -4,7 +4,6 @@ canvas {
 }
 
 html, body {
-  margin: 25px;
   background-image: url("image3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
