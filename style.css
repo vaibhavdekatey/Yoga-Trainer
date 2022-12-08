@@ -114,6 +114,9 @@ indexbutton{
   color: #ffffff;
 
   background: rgb(80, 170, 100);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 
 }
 
