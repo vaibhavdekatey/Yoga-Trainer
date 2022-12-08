@@ -120,13 +120,14 @@ indexbutton{
 }
 
 indexbutton:hover{
-  color: #313133;
+  color: #ffffff;
   transform: translateY(-6px);
 }
 
 .buttons {
   display: flex;
   justify-content: space-between;
+  
 }
 
 .parent {
