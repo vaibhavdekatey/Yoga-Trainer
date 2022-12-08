@@ -110,7 +110,7 @@ indexbutton{
   color: #fcfcfc;
   background: #360404;
   background: linear-gradient(90deg, rgba(82, 10, 34,1) 100%, rgba(65, 10, 82,1) 50%);
-  border: none;
+  border: 6px solid #00FFCB;
   border-radius: 1000px;
   box-shadow: 12px 12px 24px rgba(204,20,245,.64);
   transition: all 0.3s ease-in-out 0s;
@@ -120,8 +120,8 @@ indexbutton{
 }
 
 indexbutton:hover{
-  border: 4px solid #b8b65f;
-  box-sizing: border-box;
+  color: #313133;
+  transform: translateY(-6px);
 }
 
 .buttons {
