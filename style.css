@@ -109,7 +109,7 @@ indexbutton{
   left:99px; 
   color: #fcfcfc;
   background: #360404;
-  border: 10px solid #00FFCB;
+  border: 1px solid #00FFCB;
   border-radius: 1000px;
   box-shadow: 12px 12px 24px rgba(0,0,0,.44);
   transition: all 0.3s ease-in-out 0s;
