@@ -5,8 +5,9 @@ canvas {
 
 html, body {
   margin: 25px;
-  /*background-color: #ce3635;*/
-  background-color:  #380d17;
+  background-image: url("image3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: Helvetica, sans-serif, sans-serif;
   font-size: 14px;
   overflow: hidden; 
