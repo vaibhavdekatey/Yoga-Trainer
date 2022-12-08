@@ -126,7 +126,7 @@ indexbutton:hover{
 .buttons {
   display: flex;
   justify-content: space-between;
-  
+  border-radius: 1000px;
 }
 
 .parent {
